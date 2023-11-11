@@ -1,0 +1,21 @@
+dotnet new sln
+dotnet new webapi -n API
+dotnet sln add API\API.csproj
+dotnet sln list
+
+launchSettings.json file Use this project
+
+In CMD administrator
+dotnet dev-certs https --clean
+dotnet dev-certs https --trust
+
+delete sweger lines from Program
+
+------
+C# DevKit
+Nuget Gallery
+Ctrl+Shift+P -> Nuget: Open Nuget Gallery
+----
+dotnet tool install --global dotnet-ef --version 7.0.13
+dotnet ef migrations add InitialCreate -o Data/Migrations
+dotnet ef database update
