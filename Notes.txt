@@ -30,6 +30,8 @@ Angular Language Service
 dotnet tool install --global dotnet-ef --version 7.0.13
 dotnet ef migrations add InitialCreate -o Data/Migrations
 dotnet ef database update
+dotnet ef migrations add UserPasswordAdded
+dotnet ef database update
 
 ---nvm
 https://www.freecodecamp.org/news/node-version-manager-nvm-install-guide/
